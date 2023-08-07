@@ -40,4 +40,13 @@ func arrays() {
 	fmt.Println(fruit[0:2]) /* will include before last number (0:2) will print 0,1 */
 	fmt.Println(fruit[1] + ", " + fruit[2])
 	//slices - array with unspecified length
-}
+
+
+
+
+
+	arr := [4]int {3,7,11,17}
+	var total int = arr[0] + arr[1] + arr[2] + arr[3]
+		fmt.Println("The sum of", arr[0:4],  "is", (total))
+  }
+
