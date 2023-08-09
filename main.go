@@ -25,6 +25,9 @@ func main() {
 	account(accountBalance)
 	
 	// constant - variable that doesnt change (const _ int)
+
+					// HOMEWORK LESSON 4 - IF STATEMENTS
+	household("Diana") 
 }
 func arrays() {
 // array - sequence of specific length, same type inside square brackets */
@@ -131,3 +134,13 @@ func account(funds int) { // same with bool for true or false statements
 	//fmt.Println("you have ", accountBalance, "in your account." )
 }
 
+				// HOMEWORK LESSON 4 - IF STATEMENTS
+func household(name string) {
+	if name == "yaddy" {
+	 fmt.Println(name, "lives here")
+} else if name == "Daisy" {
+	fmt.Println(name, "doesn't live there, but can come in")
+} else {
+	fmt.Println("stranger danger!")
+}
+}
